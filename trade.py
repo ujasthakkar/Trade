@@ -14,5 +14,7 @@ df.to_csv('TSLA.csv')
 df=pd.read_csv('TSLA.csv',parse_dates = True,index_col=0)
 print(df.head())
 
+// I have added this line
+
 df.plot()
 plt.show()
